@@ -3,7 +3,7 @@ Custom project template for C++ projects with raylib &amp; robloach's wrapper, w
 
 This project uses Cmake along with Ninja to fetch, link and build the necessary files and dependencies to generate the project binary
 
-# Why
+## Why
 
 Since I want to experiment and learn without having to repeat myself every time, and since I haven't found a project template that satisfies my current setup needs, I created this template for easy clone, setup &amp; go
 
@@ -11,17 +11,17 @@ Not intended to be a end-all for every single project out there, but if someone 
 
 Feel free to report issues, send improvements and suggestions. Not guaranteeing to respond immediately, but I'll try my best to help
 
-# How to run
+## How to run
 
-## Windows
+### Windows
 Currently tested on Windows 11
 
-### Dependencies
+#### Dependencies
 - Cmake [link](https://cmake.org/cmake/download)
 - Ninja build system [link](https://github.com/ninja-build/ninja/releases)
 - Visual C++ Redistributable [link](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
-### How to build
+#### How to build
 1. Clone the project
 `git clone https://github.com/erzei/ray-base-plusplus.git <PROJECT_NAME|.>`
 2. In `CMakeLists.txt` change the project name(optional)
@@ -39,7 +39,7 @@ project(ray-base++ <- PROJECT_NAME, change this to your liking
 
 
 
-# TODO
+## TODO
 - Improve readme
 - Current workflow has been tested only in windows. Pending testing and fixing on Linux & MacOS
 - Add build options to generate and expose compilation files
@@ -49,6 +49,6 @@ project(ray-base++ <- PROJECT_NAME, change this to your liking
 - Other things I'm not considering right now
 
 
-# License
+## License
 
 This project(ray-base-plusplus) uses zlib license. See [LICENSE](LICENSE)
