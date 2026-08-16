@@ -1,5 +1,5 @@
 # ray-base-plusplus
-Custom project template for C++ projects with raylib &amp; robloach's wrapper, with the aim to have a easy to use template and out of the box CMake configuration for quickest bootstrap
+Custom project template for C++ projects with [raylib](https://github.com/raysan5/raylib.git) &amp; [robloach's C++ wrapper](https://github.com/RobLoach/raylib-cpp.git), with the aim to have a easy to use template and out of the box CMake configuration for quickest bootstrap
 
 This project uses Cmake along with Ninja to fetch, link and build the necessary files and dependencies to generate the project binary
 
