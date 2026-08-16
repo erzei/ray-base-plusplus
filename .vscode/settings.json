@@ -1,0 +1,8 @@
+{
+  "sonarlint.pathToCompileCommands": "${workspaceFolder}\\build\\compile_commands.json",
+  // C++ settings
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.autocomplete": "default",
+  // CMake settings
+  "cmake.generator": "Ninja"
+}
