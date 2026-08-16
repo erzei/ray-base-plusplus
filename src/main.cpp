@@ -5,12 +5,12 @@ int main() {
     int screenHeight = 1200;
 
     raylib::Window window(screenWidth, screenHeight, "ray-base++");
-    SetTargetFPS(60);
+    window.SetTargetFPS(60);
 
     while (!raylib::Window::ShouldClose()) {
         window.BeginDrawing();
         window.ClearBackground(raylib::Color::White());
-        raylib::DrawText("Hello, raylib-cpp!", 190, 200, 20, raylib::Color::DarkGray());
+        raylib::DrawText("Hello, raylib-cpp!", 190, 200, 32, raylib::Color::DarkGray());
         window.EndDrawing();
     }
 
