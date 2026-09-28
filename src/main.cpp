@@ -2,7 +2,7 @@
 
 int main() {
     int screenWidth = 600;
-    int screenHeight = 1200;
+    int screenHeight = 800;
 
     raylib::Window window(screenWidth, screenHeight, "ray-base++");
     window.SetTargetFPS(60);
