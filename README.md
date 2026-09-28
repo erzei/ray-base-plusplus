@@ -21,6 +21,17 @@ Currently tested on Windows 11
 - Ninja build system [link](https://github.com/ninja-build/ninja/releases)
 - Visual C++ Redistributable [link](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
+### Linux
+
+#### Dependencies
+- Cmake
+- Ninja build system
+- OpenGL & X11 libraries(to build and run without extra flags)
+*Debian*
+`sudo apt install build-essential gdb cmake ninja-build`
+`sudo apt install libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev`
+
+
 #### How to build
 1. Clone the project
 `git clone https://github.com/erzei/ray-base-plusplus.git <PROJECT_NAME|.>`
